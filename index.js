@@ -1,2 +1,9 @@
 const { log } = console;
-log(5)
+class Sport{
+  constructor(name){
+    this.name = name;
+  }
+}
+
+const sport = new Sport('Kabadi');
+log(sport);
